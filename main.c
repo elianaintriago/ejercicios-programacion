@@ -5,8 +5,8 @@ int main (int argc, char *argv[]) {
   int *ptr;
   for(int i=0; i <5; i ++)
 {
-   printf("%d", vec[1]);
-   
+ printf ("vector[%d]%d", i, vec[i]);
+ printf("\n%d",*(ptr++));
 }
       return 0;
 }
