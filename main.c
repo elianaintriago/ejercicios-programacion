@@ -6,6 +6,7 @@ int main (int argc, char *argv[]) {
   for(int i=0; i <5; i ++)
 {
    printf("%d", vec[1]);
+   
 }
       return 0;
 }
